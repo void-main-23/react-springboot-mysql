@@ -11,6 +11,10 @@ import javax.persistence.Table;
 @Table(name="book")
 public class Book {
 
+    Book(){
+        
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
